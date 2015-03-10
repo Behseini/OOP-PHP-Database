@@ -1,4 +1,15 @@
 <?php
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * This is Calss to create Singlton Connection
+ *
+ * @author Behrouz Hosseini
+ */
 require_once 'assets/AppDB.php';
 $Db = new AppDB();
 $res = $Db->query("SELECT * FROM employee");
